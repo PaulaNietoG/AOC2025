@@ -19,7 +19,7 @@ rotate <- function(rotation, start = 50, clicks = 0){
 
 rotation_list <- c("L68", "L30", "R48", "L5", "R60", "L55", "L1", "L99", "R14", "L82")
 
-# rotation_list <- read.delim("/novo/users/pnfg/tmp_files/input.txt", sep = "\n", header = FALSE)[,1]
+# rotation_list <- read.delim("input/day1_input.txt", sep = "\n", header = FALSE)[,1]
 head(rotation_list)
 tail(rotation_list)
 
