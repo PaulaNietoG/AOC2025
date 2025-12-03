@@ -1,4 +1,7 @@
-### create function to rotate dial
+# Day 1 Advent of Code
+# Paula Nieto García
+
+# create function to rotate dial
 
 rotate <- function(rotation, start = 50, clicks = 0){
   
