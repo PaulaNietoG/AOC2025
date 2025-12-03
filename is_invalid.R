@@ -1,3 +1,7 @@
+# Day 3 Advent of Code
+# Paula Nieto García
+# challenge #1
+
 # create function to decide if a number is valid or not (first set of rules)
 
 is_invalid <- function(num){
