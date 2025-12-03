@@ -29,7 +29,7 @@ batteries <- c(987654321111111,
                234234234234278,
                818181911112111)
 
-# puzzle 1
+# puzzle input
 batteries <- read.delim("tmp_files/day3_input.txt", header = FALSE, sep = "\n", colClasses = "character")[,1]
 head(batteries)
 tail(batteries)
@@ -38,6 +38,7 @@ max_jolt <- c()
 for (bat in batteries) {
   max_jolt <- c(max_jolt, get_joltage(bat, on = 12))
 }
+
 # double check if length of original array is equal to length of result
 length(batteries) == length(max_jolt)
 as.character(sum(as.numeric(max_jolt)))
