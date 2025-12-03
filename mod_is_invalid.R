@@ -1,3 +1,6 @@
+# Day 3 Advent of Code
+# Paula Nieto García
+# challenge #2
 
 # update the is_valid function for second set of rules
 
